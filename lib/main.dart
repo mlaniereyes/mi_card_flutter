@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.deepOrange.shade300,
         body: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -28,10 +28,10 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Text(
-                'FLUTTER DEVELOPER',
+                'MOBILE APP DEVELOPER',
                 style: TextStyle(
                   fontSize: 16.0,
-                  color: Colors.teal[100],
+                  color: Colors.deepOrange[50],
                   fontWeight: FontWeight.bold,
                   fontFamily: 'Source Sans Pro',
                   letterSpacing: 2.5,
@@ -41,7 +41,7 @@ class MyApp extends StatelessWidget {
                 height: 20.0,
                 width: 150.0,
                 child: Divider(
-                  color: Colors.teal.shade100,
+                  color: Colors.deepOrange.shade500,
                 ),
               ),
               Card(
@@ -49,12 +49,12 @@ class MyApp extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(
                     Icons.phone,
-                    color: Colors.teal,
+                    color: Colors.deepOrange,
                   ),
                   title: Text(
-                    '+1 204 1234567',
+                    '+1 204 0000000',
                     style: TextStyle(
-                      color: Colors.teal.shade900,
+                      color: Colors.deepOrange.shade400,
                       fontFamily: 'Source Sans Pro',
                       fontSize: 20.0,
                     ),
@@ -67,12 +67,12 @@ class MyApp extends StatelessWidget {
                   child: ListTile(
                     leading: Icon(
                       Icons.email,
-                      color: Colors.teal,
+                      color: Colors.deepOrange,
                     ),
                     title: Text(
                       'mlaniereyes@gmail.com',
                       style: TextStyle(
-                        color: Colors.teal.shade900,
+                        color: Colors.deepOrange.shade400,
                         fontFamily: 'Source Sans Pro',
                         fontSize: 20.0,
                       ),
